@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Rock+Salt&display=swap');
+@import url('/css/title.css');
+@import url('/css/progress.css');
+
+
+/*
+font-family: 'New Rocker', cursive;
+font-family: 'Rock Salt', cursive;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'New Rocker', cursive;
+    font-weight: 400;
+}
+
+p, span, strong, em, li {
+    font-family: 'Rock Salt', cursive;
+    font-weight: 400;
+}
+
+.img-cover {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 5px 10px 30px darkslategray;
+}
+
+.img-cover img {
+    width: 100%;
+}
+
+.progress {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.progress progress {
+    height: 8px;
+    width: 400px;
+    /* background-color: black; */
+    /* accent-color: blue; */
+}
+
+.player {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: sticky;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.694);
+    box-shadow: 5px 10px 30px darkslategray;
+}
+
+.play-btn {
+    text-align: center;
+    filter: invert(100%);
+}
+
+.play-btn img {
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    filter: opacity(.5)
+}
+
+.play-btn img:active {
+    filter:brightness(140%)
+}
+
+.radio-station {
+    /* color: gray; */
+    /* color: blueviolet; */
+    color: darkseagreen;
+    font-size: .9rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+    .img-cover {
+        max-width: 409px;
+    }
+    
+    .img-cover img {
+        max-width: 409px;
+    }
+
+.player {
+        width: 409px;
+    }    
+}
+
+/* @media screen and (max-width: 384px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 385px) {
+    h1 {
+        font-size: 4rem;
+    }
+} */

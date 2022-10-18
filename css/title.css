@@ -1,0 +1,51 @@
+header {
+    padding-top: 10px;
+    color: gray;
+    text-align: center;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 279px) {
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 280px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    h1 {
+        font-size: 2.7rem;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    h1 {
+        font-size: 3.1rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+
+
+/* @media screen and (min-width: 384px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 385px) {
+    h1 {
+        font-size: 4rem;
+    }
+} */
+
