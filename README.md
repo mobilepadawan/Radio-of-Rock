@@ -16,4 +16,4 @@ This is the Roadmap of this PWA. I will adding slowly all the features detailed 
 ### The face
 This is the first approach to the PWA UI. I think I will evolve it but I need a face to start using it. 😅
 
-![Screenshot of Streams of Rock PWA. ](/posters/Streans-of-rock.png "Streams of Rock 'Face'. A PWA to listen to ").
+![Screenshot of Streams of Rock PWA. ](https://github.com/mobilepadawan/Radio-of-Rock/blob/main/posters/Streams-of-rock.png).
